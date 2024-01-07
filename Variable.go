@@ -66,6 +66,50 @@ func main() {
 	fmt.Println(zx)
 
 
+	// multiple variable
+
+	var aa,bb,cc, dd int = 1, 2, 3, 4
+	fmt.Println(aa,bb,cc,dd)
+	fmt.Println(aa)
+	fmt.Println(bb)
+	fmt.Println(cc)
+	fmt.Println(dd)
+
+
+	//
+
+	var aaa, bbb = 4.4, "hello"
+	ccc, ddd := 3.4, "world"
+
+	fmt.Println(aaa)
+	fmt.Println(bbb)
+	fmt.Println(ccc)
+	fmt.Println(ddd)
+
+// Variable Declaration in a Block
+var (
+	a1 int
+	b1 float32 = 44.44
+	c1 string = "Hello Go!"
+)
+
+fmt.Println(a1)
+fmt.Println(b1)
+fmt.Println(c1)
+
+
+// Const
+// constant variable rule same as var rule. only change here that const is not changeable of it's value;
+
+const ValueOfPI float32 = 3.1416
+fmt.Println(ValueOfPI)
+
+const A = "Hello World!"
+fmt.Println(A)
+
+
+
+
 }
 
 // this is single line comment system of Go
