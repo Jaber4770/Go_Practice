@@ -101,11 +101,31 @@ fmt.Println(c1)
 // Const
 // constant variable rule same as var rule. only change here that const is not changeable of it's value;
 
-const ValueOfPI float32 = 3.1416
-fmt.Println(ValueOfPI)
+const VALUE_OF_PI float32 = 3.1416
+fmt.Println(VALUE_OF_PI)
 
 const A = "Hello World!"
 fmt.Println(A)
+
+
+// Go Output Functions
+
+/*
+
+Print() , [do not add white space between arguments]
+Println() , [add white space between arguments]
+Printf() , it have to part: %v and %T
+	%v is used to print the value of the arguments
+	%T is used to print the type of the arguments
+
+
+Print() if we se it, it will print normally. did not add white space between arguments.
+if we print any integer then they will be stay separately but in string they will be one word.
+
+
+*/
+
+
 
 
 
