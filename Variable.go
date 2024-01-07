@@ -125,13 +125,15 @@ if we print any integer then they will be stay separately but in string they wil
 
 */
 
+/*------------------------------------------------------------
+				now i will learn	Go Formatting Verbs
+-------------------------------------------------------------*/
 
 
-
-
-
-}
 
 // this is single line comment system of Go
 /* this is multi line comment system */
+
+}
+
 
